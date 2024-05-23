@@ -42,7 +42,7 @@ public class ApplicationRobot{
         File file = new File("myScreenShot.png");
         
         ImageIO.write(image,"png", file);
-        System.out.println("A screenshot is captured to" + file.getPath()); 
+        System.out.println("A screenshot is captured to " + file.getPath()); 
 
     }
     
