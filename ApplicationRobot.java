@@ -12,13 +12,16 @@ public class ApplicationRobot{
         Neil.setAutoDelay(1000);
         Neil.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         Neil.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-        Neil.setAutoDelay(1000);
+        Neil.setAutoDelay(3000);
         Neil.mouseMove(1200,500);
         Neil.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         Neil.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
         Neil.setAutoDelay(2000);
-        Neil.mouseMove(1200,800);
+        Neil.mouseMove(1200,900);
+        Neil.setAutoDelay(600);
         Neil.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         Neil.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        Neil.setAutoDelay(2000);
+        Neil.mouseMove(735,60);
     }
 }
